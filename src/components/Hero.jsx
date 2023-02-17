@@ -55,7 +55,7 @@ const StyledHero = styled.header`
 
   @media (prefers-reduced-motion: no-preference) {
     .hero-img {
-      animation: ${Spin} infinite 20s linear;
+      // animation: ${Spin} infinite 20s linear;
     }
   }
 
