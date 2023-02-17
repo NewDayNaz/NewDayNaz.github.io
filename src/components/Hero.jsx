@@ -53,11 +53,11 @@ const StyledHero = styled.header`
     height: 10rem;
   }
 
-  @media (prefers-reduced-motion: no-preference) {
-    .hero-img {
-      // animation: ${Spin} infinite 20s linear;
-    }
-  }
+  // @media (prefers-reduced-motion: no-preference) {
+  //   .hero-img {
+  //     animation: ${Spin} infinite 20s linear;
+  //   }
+  // }
 
   @media screen and (min-width: 1180px) {
     &::before {
