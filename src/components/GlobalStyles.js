@@ -11,7 +11,7 @@ Variables
   /* Primary Color */
   --primary: #61DBFB;
   --primary-dark: #316e7e;
-  --border: 1px solid #61DBFB;
+  --border: 1px solid #000000;
   --transition: all 0.3s linear;
   --nav-height: 61px;
   --min-footer-height: 11vh;
