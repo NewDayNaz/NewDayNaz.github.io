@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 // Icons
-import { FaGithub } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 // Media
 import GH from "../images/GH.svg";
 // Components
@@ -38,9 +38,9 @@ export default function StyledCard({ theme, image, name, description, url }) {
           <Card.Text>{description}</Card.Text>
         </Card.Body>
         <Card.Footer className="text-center">
-          <Card.Link href={url}>
+          <Card.Link href="#derp">
             {"View on GitHub "}
-            <FaGithub />
+            <FaFacebook />
           </Card.Link>
         </Card.Footer>
       </Card>

@@ -48,19 +48,6 @@ export default function SecondaryNavBar() {
                   Home
                 </Link>
               </Nav.Item>
-              <Nav.Item>
-                <Link
-                  to="/All-Projects"
-                  className={
-                    pathname === "/All-Projects"
-                      ? "nav-link active"
-                      : "nav-link"
-                  }
-                  onClick={toggleExpanded}
-                >
-                  All Projects
-                </Link>
-              </Nav.Item>
             </Nav>
             <Nav>
               <ToggleSwitch />

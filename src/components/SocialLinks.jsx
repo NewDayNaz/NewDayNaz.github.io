@@ -5,7 +5,7 @@ import styled from "styled-components";
 // Data
 import { Blog } from "../data";
 // Icons
-import { FaGithub } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const StyledSocialLinks = styled.div`
   a {
@@ -14,22 +14,31 @@ const StyledSocialLinks = styled.div`
 `;
 
 export default function SocialLinks() {
-  const { blog, html_url } = useSelector(selectData);
+  const { blog } = useSelector(selectData);
 
   return (
     <StyledSocialLinks>
       <a
-        href={html_url}
-        aria-label="Check out my GitHub profile."
+        href="https://www.facebook.com/newdaynaz/"
+        aria-label="Check out our facebook"
         className="link-icons"
       >
-        <FaGithub />
+        <FaFacebook />
       </a>
-      {blog && (
-        <a href={blog} aria-label="External link" className="link-icons">
-          {Blog}
-        </a>
-      )}
+      <a
+        href="https://www.instagram.com/newdaynaz/"
+        aria-label="Check out our instagram"
+        className="link-icons"
+      >
+        <FaInstagram />
+      </a>
+      <a
+        href="https://www.youtube.com/@newdaychurchofthenaz7033"
+        aria-label="Check out our youtube"
+        className="link-icons"
+      >
+        <FaYoutube />
+      </a>
     </StyledSocialLinks>
   );
 }

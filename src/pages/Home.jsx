@@ -5,10 +5,7 @@ import { selectData } from "../pages/homeSlice";
 // Components
 import NavBar from "../components/NavBar";
 import Hero from "../components/Hero";
-import AboutMe from "../components/AboutMe";
-import Skills from "../components/Skills";
-import Projects from "../components/Projects";
-import Contact from "../components/Contact";
+import AboutUs from "../components/AboutUs";
 import { BackToTop } from "../components/globalStyledComponents";
 import Footer from "../components/Footer";
 
@@ -17,7 +14,7 @@ export default function Home() {
 
   React.useEffect(
     function () {
-      document.title = `${name} | Portfolio`;
+      document.title = `New Day Naz`;
     },
     [name]
   );
@@ -29,10 +26,7 @@ export default function Home() {
         <Hero />
       </Element>
       <main>
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <Contact />
+        <AboutUs />
       </main>
       <BackToTop home={"Home"} />
       <Footer />
