@@ -33,7 +33,7 @@ export default function SocialLinks() {
         <FaInstagram />
       </a>
       <a
-        href="https://www.youtube.com/@newdaychurchofthenaz7033/streams"
+        href="https://www.youtube.com/channel/UCRuKEWYbu0rdhw0dlTSu3lg"
         aria-label="Check out our youtube"
         className="link-icons"
       >
