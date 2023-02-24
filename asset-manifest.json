@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.deb5c223.css",
-    "main.js": "/static/js/main.1724cb8b.js",
+    "main.js": "/static/js/main.bcd7e4f3.js",
     "static/media/hero-dark.jpg": "/static/media/hero-dark.37f2556d620821979e99.jpg",
     "static/media/hero-light.jpg": "/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
     "static/media/logo.svg": "/static/media/logo.7a1ab2005927198c6aaee73f1abbf905.svg",
     "service-worker.js": "/service-worker.js",
     "index.html": "/index.html",
     "main.deb5c223.css.map": "/static/css/main.deb5c223.css.map",
-    "main.1724cb8b.js.map": "/static/js/main.1724cb8b.js.map"
+    "main.bcd7e4f3.js.map": "/static/js/main.bcd7e4f3.js.map"
   },
   "entrypoints": [
     "static/css/main.deb5c223.css",
-    "static/js/main.1724cb8b.js"
+    "static/js/main.bcd7e4f3.js"
   ]
 }
