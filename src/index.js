@@ -9,9 +9,13 @@ import { store } from "./store";
 import "bootstrap/dist/css/bootstrap.css";
 import App from "./App";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+import ReactGA from "react-ga4";
 
 // https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+//Initialize GA4
+ReactGA.initialize("G-26T1JHJEFZ");
 
 root.render(
   <Provider store={store}>
